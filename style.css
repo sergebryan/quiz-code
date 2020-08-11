@@ -1,0 +1,62 @@
+body {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+button {
+    display: none;
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #372be2;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar {
+    display: block;
+    width: 100%;
+}
+
+.navbar div {
+    display: inline-block;
+}
+
+#timer {
+    float: right;
+}
+
+.quiz {
+    margin: 20px;
+}
+
+#answer {
+    margin: 20px;
+    font-style: italic;
+}
+
+#initials {
+    padding: 20px;
+    display: none;
+}
+
+#initials button {
+    display: block;
+}
+
+#scoreDiv {
+    padding-left: 20px;
+    
+    
+}
