@@ -69,6 +69,11 @@ startBtn.onclick = startQuiz;
 var score = 0;
 
 function startQuiz() {
+    document.getElementById("option1").classList.remove("hide")
+    document.getElementById("option2").classList.remove("hide")
+    document.getElementById("option3").classList.remove("hide")
+    document.getElementById("option4").classList.remove("hide")
+    document.getElementById("goback").classList.remove("hide");
     startBtn.remove();
     startBtn.style.display = "block";
     options.forEach(function (option) {
@@ -128,7 +133,7 @@ function endQuiz() {
     ques.appendChild(document.createTextNode("All done!"));
     document.getElementById("result").innerText = "Your final score is " + score;
     document.getElementById("initials").style.display = "block";
-
+    document.getElementById("goback").classList.add("hide");
 }
 
 document.getElementById("initials-submit").onclick = function () {

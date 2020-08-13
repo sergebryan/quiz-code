@@ -3,7 +3,6 @@ body {
     font-family: sans-serif;
 }
 button {
-    display: none;
     background-color: #8a2be2;
     color: white;
     padding: 10px;
@@ -54,9 +53,14 @@ ul {
 #initials button {
     display: block;
 }
-
+.hide {
+    display: none;
+    
+}
 #scoreDiv {
     padding-left: 20px;
     
-    
+
+
 }
+
